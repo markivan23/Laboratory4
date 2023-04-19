@@ -1,0 +1,94 @@
+/* CSS */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    }
+    
+    header h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    nav li {
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .main-content {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .main-content h2 {
+    margin-top: 0;
+    }
+    
+    .main-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 20px;
+    flex: 1;
+    }
+    
+    .main-content img {
+    margin-top: 20px;
+    flex: 1;
+    }
+    
+    table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    }
+    
+    table, th, td {
+    border: 1px solid #333;
+    }
+    
+    th, td {
+    padding: 10px;
+    text-align: left;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* CSS classes and IDs */
+    #home-link {
+    color: red;
+    }
+    
+    .main-content h2.title {
+    font-size: 24px;
+    }
+    
+    .main-content p.description {
+    color: #666;
+    }
+    
+    .main-content img {
+    border: 1px solid #ccc;
+    }
+    
+    .team-table td {
+    padding: 15px;
+    }
+    
+    .contact-form {
